@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reset</title>
+</head>
+<body>
+    <form action="\reset_data" method="post">
+        <div class="container">
+    <input type="hidden" name="username" value=<%= result[0].username %>><br/>
+    <div class="subcontainer"><input type="password" name="password" placeholder="Enter Old Password" required/><br /> </div>
+   <div class="subcontainer"><input type="password" name="new_password" placeholder="Enter New Password" required><br/></div>
+    <div class="subcontainer"><input type="submit" id="submitbtn"></div>
+</div>
+</form>
+</body>
+</html>
